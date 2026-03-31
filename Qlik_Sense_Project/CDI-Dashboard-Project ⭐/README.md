@@ -137,9 +137,24 @@ AT TIME ZONE 'India Standard Time' AS DATE) AS IST_Date
 
 ---
 
-## 🔷 📸 Dashboard Screenshots
+## 📊 Dashboard Overview
 
-> Upload your images into an `/images` folder in the repository.
+![Dashboard](Images/dashboard_overview.png)
+
+## 📈 Analysis Views
+
+### Facility & Performance Analysis
+![Performance](Images/performance_analysis.png)
+
+### Trend & Revenue Analysis
+![Trends](Images/trend_analysis.png)
+
+### Business Insights
+![Insights](Images/business_insights.png)
+
+## 🧱 Data Model
+
+![Data Model](Images/data_model.png)
 
 ---
 
