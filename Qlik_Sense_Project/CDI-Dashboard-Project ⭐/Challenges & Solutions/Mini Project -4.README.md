@@ -1,4 +1,8 @@
-### 🔹 4. Handling Synthetic Keys using Link Table Modeling
+# 🔷 📁 MINI PROJECT 4
+
+#### 📌 Title
+
+## 🔧 Challenges & Solutions: Handling Synthetic Keys using Link Table Modeling
 
 #### 📌 Problem
 
@@ -42,7 +46,7 @@ To resolve synthetic keys and create a scalable data model:
 
 #### 🧪 Implementation (Conceptual - Qlik)
 
-```qlik id="p4x8kd"
+```qlik 
 LinkTable:
 LOAD DISTINCT
     Common_ID,
@@ -69,6 +73,24 @@ RESIDENT FactTable2;
 * Simplified and optimized data model
 * Ensured accurate aggregations and filtering
 * Improved dashboard performance and reliability
+
+---
+
+#### 🔄 Before vs After Improvements
+
+**Before:**
+![Before Model](screenshots/before_model.png)
+
+* Synthetic keys generated
+* Complex and unclear relationships
+* Risk of incorrect aggregations
+
+**After:**
+![After Model](screenshots/after_model.png)
+
+* Implemented Link Table structure
+* Removed synthetic keys
+* Clean and scalable data model
 
 ---
 
