@@ -1,4 +1,8 @@
-### 🔹 5. Optimizing Data Load by Shifting Filters from Qlik to SQL
+# 🔷 📁 MINI PROJECT 5
+
+## 📌 Title  
+
+## 🔧 Challenges & Solutions : Optimizing Data Load by Shifting Filters from Qlik to SQL
 
 #### 📌 Problem
 
@@ -47,11 +51,11 @@ To optimize performance, filtering logic was shifted from Qlik to SQL:
 
 #### 🧪 Implementation (Conceptual)
 
-```sql id="z8k3mn"
-SELECT *
-FROM QueryAlerts
-WHERE alert_date >= DATEADD(MONTH, -1, GETDATE())
-AND facility_id IN ('Facility_A', 'Facility_B')
+```sql
+WHERE FACILITY_ID IN (...)
+AND CAST(CREATE_DATE AT TIME ZONE 'US Mountain Standard Time'
+AT TIME ZONE 'India Standard Time' AS DATE)
+BETWEEN $(vStartDate) AND $(vEndDate)
 ```
 
 * Similar filtering logic applied across all related tables
@@ -68,6 +72,23 @@ AND facility_id IN ('Facility_A', 'Facility_B')
 
 ---
 
+#### 🔄 Before vs After Improvements
+
+**Before:**
+![Before Performance](screenshots/before_performance.png)
+
+* Full data loaded into Qlik
+* Slow performance and high memory usage
+
+**After:**
+![After Performance](screenshots/after_performance.png)
+
+* Applied filters at SQL level
+* Reduced data load volume
+* Faster dashboard performance
+
+---
+  
 #### 💡 Key Learning
 
 Applying filters at the **data source level (SQL)** is a best practice for performance optimization.
