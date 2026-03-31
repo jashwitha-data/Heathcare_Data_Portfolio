@@ -2,9 +2,7 @@
 
 #### 📌 Title
 
-## 🔧 Challenges & Solutions
-
-### 🔹 1. Applying Consistent Filters Across Multiple Tables
+## 🔧 Challenges & Solutions: Applying Consistent Filters Across Multiple Tables
 
 #### 📌 Problem
 
