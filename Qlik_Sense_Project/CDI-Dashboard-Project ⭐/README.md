@@ -6,9 +6,9 @@ Aspiring Data Analyst skilled in Qlik Sense, SQL, and Data Modeling.
 ---
 ## 📊 Projects
 
-### ⭐ CDI live Tool Performance Dashboard
+### ⭐ CDI Tool Performance Dashboard
 ## 🔹 📌 Project Overview
-This project focuses on building a **high-performance Qlik Sense dashboard** to analyze CDI (Clinical Documentation Improvement) live tool performance across multiple facilities.
+This project focuses on building a **high-performance Qlik Sense dashboard** to analyze CDI (Clinical Documentation Improvement) tool performance across multiple facilities.
 
 The solution integrates **multiple fact tables**, applies **complex filtering**, and ensures **accurate time-based analysis** using a unified calendar model.
 
@@ -136,25 +136,17 @@ AT TIME ZONE 'India Standard Time' AS DATE) AS IST_Date
 - Facility Type  
 
 ---
+## 📷 Dashboard Screenshots
 
-## 📊 Dashboard Overview
+-  Dashboard Overview ![Dashboard](Images/dashboard_overview.png)
+  
+-  Facility & Performance Analysis ![Performance](Images/performance_analysis.png)
 
-![Dashboard](Images/dashboard_overview.png)
+-  Trend & Revenue Analysis ![Trends](Images/trend_analysis.png)
 
-## 📈 Analysis Views
+-  Business Insights ![Insights](Images/business_insights.png)
 
-### Facility & Performance Analysis
-![Performance](Images/performance_analysis.png)
-
-### Trend & Revenue Analysis
-![Trends](Images/trend_analysis.png)
-
-### Business Insights
-![Insights](Images/business_insights.png)
-
-## 🧱 Data Model
-
-![Data Model](Images/data_model.png)
+-  Data Model ![Data Model](Images/data_model.png)
 
 ---
 
